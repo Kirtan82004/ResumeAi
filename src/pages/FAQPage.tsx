@@ -1,5 +1,11 @@
 
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
+
+<Helmet>
+  <title>Resume AI - Build Your Resume</title>
+  <link rel="canonical" href="https://resume-ai-indol.vercel.app/" />
+</Helmet>
 
 interface FAQItem {
   question: string;

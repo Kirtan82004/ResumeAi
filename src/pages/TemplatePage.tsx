@@ -3,6 +3,13 @@ import React, { useState } from 'react';
 import CreativeTemplate from '../components/resume/templates/CreativeTemplate';
 import ModernTemplate from '../components/resume/templates/ModernTemplate';
 import ProfessionalTemplate from '../components/resume/templates/ProfessionalTemplate';
+import { Helmet } from 'react-helmet-async';
+
+<Helmet>
+  <title>Resume Templates - Resume AI</title>
+  <meta name="description" content="Choose from professional resume templates designed to impress recruiters. Clean, modern, and easy to customize." />
+  <link rel="canonical" href="https://resume-ai-indol.vercel.app/templates" />
+</Helmet>
 
 const TemplatePage: React.FC = () => {
   const [selectedTemplate, setSelectedTemplate] = useState<'creative' | 'modern' | 'professional'>('creative');

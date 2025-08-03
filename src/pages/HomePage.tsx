@@ -1,6 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FileText, Award, Sparkles, CheckCircle } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
+
+<Helmet>
+  <title>Resume AI - Build Your Resume in Seconds</title>
+  <meta name="description" content="Create professional AI-generated resumes for free. Choose templates, edit, and download your resume easily." />
+  <link rel="canonical" href="https://resume-ai-indol.vercel.app/" />
+</Helmet>
 
 const HomePage: React.FC = () => {
   return (

@@ -10,6 +10,13 @@ import SkillsForm from '../components/resume/SkillsForm';
 import TemplateSelection from '../components/resume/TemplateSelection';
 import ResumePreview from '../components/resume/ResumePreview';
 import { useResume } from '../context/ResumeContext';
+import { Helmet } from 'react-helmet-async';
+
+<Helmet>
+  <title>Create Your Resume - Resume AI</title>
+  <meta name="description" content="Use AI to generate job-winning resumes instantly. Just fill in your details and download your resume in seconds." />
+  <link rel="canonical" href="https://resume-ai-indol.vercel.app/resume" />
+</Helmet>
 
 const ResumePage: React.FC = () => {
   const [activeTab, setActiveTab] = useState('personal');
