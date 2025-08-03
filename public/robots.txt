@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap:https://resume-ai-indol.vercel.app//sitemap.xml
+Sitemap:https://resume-ai-indol.vercel.app/sitemap.xml
